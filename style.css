@@ -1,0 +1,122 @@
+html{box-sizing: border-box;
+    font-size: 100%;}
+*,*::after,*::before{box-sizing: inherit;}
+
+body{margin: 0px;
+        background-color: hsl(30, 38%, 92%);}
+.content{   display:flex;
+            box-shadow: 0px 0px 5px;
+            flex-direction: column;
+            width:26.78rem;
+            height:auto;
+            margin: 0px;
+            position: absolute;
+            border-radius: 0.714rem;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);}
+.img{
+        background-image: url('images/image-product-mobile.jpg');
+        background-repeat: no-repeat;
+
+        background-size:cover;
+        width: 26.78rem;
+        margin: 0px;
+        height:40vh;
+        border-radius: 0.714rem 0.714rem 0px 0px;}
+.bottomout{
+        background-color: white;
+        border-radius: 0px 0px 0.714rem 0.714rem;
+        width:26.78rem;
+        height:auto;}
+.bottomin{
+        height:auto;
+        padding-bottom: 20px;
+        margin:0px 1.07rem 1.42rem 1.07rem; 
+        border-radius: 0px 0px 0.714rem 0.714rem;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    margin:2.14rem 2.14rem 0.714rem 2.14rem;
+    height:13.92rem;
+    justify-content: space-between;}
+#perfume{
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    letter-spacing: 0.36rem;
+    margin:0px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+#title{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color:hsl(212, 21%, 14%);
+    font-size:2.142rem;
+    line-height: 2.142rem;
+    margin:0px;
+}
+#para{
+        color:hsl(228, 12%, 48%);
+        font-size:1.071rem;
+        font-family: 'Montserrat';
+        margin:0px;
+        font-weight: 500;
+        line-height: 1.428rem;}
+.cont2{ 
+        margin:1.42rem 2.142rem 0px 2.142rem;
+        display: flex;
+        align-items: center;}
+#price{ 
+        margin:0px 0.714rem 0px 0px;
+        font-size:2.142rem;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);}
+#dis{margin:0px 0px 0px 0.714rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;}
+.btn{width:20.357rem;
+    margin: 0.714rem 2.142rem 0px 2.142rem; }
+#addbtn{
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    align-items: center;
+    gap:0.714rem;
+    color:white;
+    width:20.357rem;
+    display:flex;
+    border: 0px;
+    border-radius: 0.714rem;
+        transition: 0.3s;}
+#addbtn:hover{cursor: pointer;
+            background-color: hsl(158, 36%, 26%) ;}
+
+    @media (min-width:767px) {
+        .content{flex-direction: row;
+                height:38.135rem;
+                 width:auto;}
+        .img{height:900px;
+            background-image: url('images/image-product-desktop.jpg');
+            border-radius: 0.714rem 0px 0px 0.714rem;
+            height:38.135rem;}
+        .bottomout{width:26.78rem;
+                    border-radius: 0px 0.714rem 0.714rem 0px;}
+        .bottomin{height:auto;}
+        .cont1{margin:4.14rem 3.14rem 0.714rem 2.14rem;
+                height:22.9rem;}
+        #title{font-size:3.142rem;
+                line-height: 3.142rem;}
+        #para{line-height: 1.8rem;}
+        #price{font-size: 3.142rem;}
+        .btn{margin:0.714rem 2.142rem 0px 2.142rem;}
+        
+
+    
+}
+
+
+
